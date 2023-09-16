@@ -116,6 +116,10 @@ Closely related to this is the question of performance on key slices of the data
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/rare%20classes.PNG)
 
+Establish a baseline
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/establishing%20a%20baseline.PNG)
+
 
 References
 

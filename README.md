@@ -104,6 +104,15 @@ AI System = code + data
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/challenges%20in%20model%20development.PNG)
 
+Why low average error isn't good enough
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/performance%20on%20disproportionately%20important%20examples.PNG)
+
+For **informational and transactional queries**, a web search engine wants to return the most relevant results, but users are willing to forgive maybe ranking the best result, number two or number three. There's a different type of web search query such as Stanford, or Reddit, or YouTube. These are called **navigational queries**, where the user has a very clear intent, very clear desire to go to Stanford.edu, or Reddit.com, or YouTube.com. When a user has a very clear navigational intent, they will tend to be very unforgiving if a web search engine does anything other than return Stanford.edu as the Number one ranked results and the search engine that doesn't give the right results will quickly lose the trust of its users. Navigational queries in this context are a disproportionately important set of examples and if you have a learning algorithm that improves your average test set accuracy for web search but messes up just a small handful of navigational queries, that may not be acceptable for deployment. The challenge, of course, is that average test set accuracy tends to weight all examples equally, whereas, in web search, some queries are disproportionately important. Now one thing you could do is try to give these examples a higher weight. That could work for some applications, but in my experience, just changing the weights of different examples doesn't always solve the entire problem. 
+
+
+
+Closely related to this is the question of performance on key slices of the data set. For example, let's say you've built a machine learning algorithm for loan approval to decide who is likely to repay a loan and thus to recommend approving certain loans for approval. For such a system, you will probably want to make sure that your system does not unfairly discriminate against loan applicants according to their ethnicity, gender, maybe their location, their language, or other protected attributes. Many countries also have laws or regulations that mandates that financial systems and loan approval processes not discriminate on the basis of a certain set of attributes, sometimes called protected attributes. Even if a learning algorithm for loan approval achieves high average test set accuracy, it would not be acceptable for production deployment if it exhibits an unacceptable level of bias or discrimination. 
 
 
 References

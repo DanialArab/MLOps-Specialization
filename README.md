@@ -98,6 +98,8 @@ Examples of metrics to track:
 <a name="8"></a>
 ## Select and train a model
 
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/Modeling.PNG)
+
 
 
 References

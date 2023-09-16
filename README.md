@@ -114,6 +114,8 @@ Closely related to this is the question of performance on key slices of the data
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/performance%20on%20key%20slices%20of%20the%20data.PNG)
 
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/rare%20classes.PNG)
+
 
 References
 

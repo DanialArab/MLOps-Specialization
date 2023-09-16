@@ -42,10 +42,14 @@ In addition to managing these changes to the data, a second set of issues, that 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/common%20deployment%20cases.PNG)
 
-
 + Shadow deployment
 + Canary deployment
 + Blue green deployment
+
+Shadow mode deployment:
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/shadow%20mode%20deployment.PNG)
+
 
 **Degrees of automation**
 

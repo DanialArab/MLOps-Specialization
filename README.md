@@ -67,6 +67,10 @@ In addition to managing these changes to the data, a second set of issues, that 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/monitoring%20dashboard.PNG)
 
+Examples of metrics to track:
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/examples%20of%20metrics%20to%20track.PNG)
+
 References
 
 https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops

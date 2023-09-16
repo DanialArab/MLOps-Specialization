@@ -130,6 +130,8 @@ Because humans are so good at unstructured data tasks, measuring human-level per
 
 The **Bayes error**, also known as the Bayes risk or the **irreducible error**, is a fundamental concept in statistics and machine learning. It represents the lowest possible error rate that any classifier or predictive model can achieve for a given problem, assuming knowledge of the true underlying probability distribution of the data. In other words, it's the minimum achievable error rate for a specific classification or prediction task.
 
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/getting%20started.PNG)
+
 
 References
 

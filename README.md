@@ -71,7 +71,7 @@ Examples of metrics to track:
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/examples%20of%20metrics%20to%20track.PNG)
 
-Deployment is also an iterative process like ML 
+**Deployment is also an iterative process like ML modeling**
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/deployment%20is%20also%20iterative%20process.PNG)
 

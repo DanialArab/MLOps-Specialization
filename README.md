@@ -98,13 +98,16 @@ Examples of metrics to track:
 <a name="8"></a>
 ## Select and train a model
 
+<a name="9"></a>
+### Data vs. model-centric AI development 
+
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/Modeling.PNG)
 
 AI System = code + data
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/challenges%20in%20model%20development.PNG)
 
-<a name="9"></a>
+<a name="10"></a>
 ### Why low average error isn't good enough
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/performance%20on%20disproportionately%20important%20examples.PNG)
@@ -117,7 +120,8 @@ Closely related to this is the question of performance on key slices of the data
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/rare%20classes.PNG)
 
-Establish a baseline
+<a name="11"></a>
+### Establish a baseline
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/establishing%20a%20baseline.PNG)
 
@@ -141,7 +145,8 @@ The advantage of this is you may be able to train your algorithm on one or a sma
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/sanity%20check%20the%20code.PNG)
 
-Error analysis and performance auditing
+<a name="11"></a>
+## Error analysis and performance auditing
 
 
 

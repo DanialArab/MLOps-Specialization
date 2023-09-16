@@ -3,21 +3,22 @@
 
 1. [Introduction to Machine Learning in Production](#1)
    1. [Overview of the ML lifecycle and deployment](#2)
-   2. [ML project lifecycle](#3)
-   3. [Data drift and concept drift](#4)
-   4. [Deployment patterns](#5)
-   5. [Degrees of automation](#6)
-   6. [Monitoring](#7)
+      1. [ML project lifecycle](#3)
+      2. [Data drift and concept drift](#4)
+      3. [Deployment patterns](#5)
+      4. [Degrees of automation](#6)
+      5. [Monitoring](#7)
+   2. [Select and train a model](#8)
 3. [Machine Learning Data Lifecycle in Production](#2)
 4. [Machine Learning Modeling Pipelines in Production](#3)
 5. [Deploying Machine Learning Models in Production](#4) 
 
 
 <a name="1"></a>
-## Introduction to Machine Learning in Production
+# Introduction to Machine Learning in Production
 
 <a name="2"></a>
-### Overview of the ML lifecycle and deployment
+## Overview of the ML lifecycle and deployment
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/deployment%20example.PNG)
 
@@ -92,6 +93,9 @@ Examples of metrics to track:
 **Pipeline monitoring**
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/metrics%20to%20monitor.PNG)
+
+<a name="8"></a>
+## Select and train a model
 
 
 References

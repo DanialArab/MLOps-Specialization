@@ -21,6 +21,14 @@ ML project lifecycle
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/ML%20Project%20lifecycle.PNG)
 
+Data drift and concept drift
+
+Data change can be a gradual change or a sudden shock 
+
+Data drift, also known as feature drift or instance drift, occurs when the statistical properties of the input data used to train a machine learning model change over time. Concept drift, on the other hand, refers to the situation where the relationships between input features and the target variable (the concept or concept of interest) change over time.
+
+
+
 References
 
 https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops

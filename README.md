@@ -95,7 +95,7 @@ Examples of metrics to track:
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/metrics%20to%20monitor.PNG)
 
-<a name="8"></a>
+<a name="8"></a> 
 ## Select and train a model
 
 <a name="9"></a>
@@ -105,9 +105,12 @@ Examples of metrics to track:
 
 AI System = code + data
 
+<a name="10"></a>
+### Challenges in model development 
+
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/challenges%20in%20model%20development.PNG)
 
-<a name="10"></a>
+<a name="11"></a>
 ### Why low average error isn't good enough
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/performance%20on%20disproportionately%20important%20examples.PNG)
@@ -120,7 +123,7 @@ Closely related to this is the question of performance on key slices of the data
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/rare%20classes.PNG)
 
-<a name="11"></a>
+<a name="12"></a>
 ### Establish a baseline
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/establishing%20a%20baseline.PNG)
@@ -130,6 +133,9 @@ It turns out the best practices for establishing a baseline are quite different,
 Because humans are so good at unstructured data tasks, measuring human-level performance or HLP, is often a good way to establish a baseline if you are working on unstructured data.
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/unstructured%20and%20structured%20data.PNG)
+
+<a name="13"></a>
+### Ways to establish a baseline
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/ways%20to%20establish%20a%20baseline.PNG)
 
@@ -145,7 +151,7 @@ The advantage of this is you may be able to train your algorithm on one or a sma
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/sanity%20check%20the%20code.PNG)
 
-<a name="11"></a>
+<a name="14"></a>
 ## Error analysis and performance auditing
 
 

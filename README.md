@@ -2,13 +2,22 @@
 
 
 1. [Introduction to Machine Learning in Production](#1)
-2. [Machine Learning Data Lifecycle in Production](#2)
-3. [Machine Learning Modeling Pipelines in Production](#3)
-4. [Deploying Machine Learning Models in Production](#4) 
+   1. [Overview of the ML lifecycle and deployment](#2)
+   2. [ML project lifecycle](#3)
+   3. [Data drift and concept drift](#4)
+   4. [Deployment patterns](#5)
+   5. [Degrees of automation](#6)
+   6. [Monitoring](#7)
+3. [Machine Learning Data Lifecycle in Production](#2)
+4. [Machine Learning Modeling Pipelines in Production](#3)
+5. [Deploying Machine Learning Models in Production](#4) 
 
 
 <a name="1"></a>
 ## Introduction to Machine Learning in Production
+
+<a name="2"></a>
+### Overview of the ML lifecycle and deployment
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/deployment%20example.PNG)
 
@@ -17,11 +26,13 @@
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/ML%20infrastructure.PNG)
 
-ML project lifecycle
+<a name="3"></a>
+### ML project lifecycle
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/ML%20Project%20lifecycle.PNG)
 
-**Data drift and concept drift**
+<a name="4"></a>
+### Data drift and concept drift
 
 Data drift, also known as feature drift or instance drift, occurs when the statistical properties of the input data used to train a machine learning model change over time. Concept drift, on the other hand, refers to the situation where the relationships between input features and the target variable (the concept or concept of interest) change over time. 
 
@@ -38,7 +49,8 @@ In addition to managing these changes to the data, a second set of issues, that 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/SF%20ENg.%20issues.PNG)
 
-**Deployment patterns**
+<a name="5"></a>
+### Deployment patterns
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/common%20deployment%20cases.PNG)
 
@@ -59,11 +71,13 @@ In addition to managing these changes to the data, a second set of issues, that 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/blue%20green%20deployment.PNG)
 
 
-**Degrees of automation**
+<a name="6"></a>
+### Degrees of automation
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/degrees%20of%20automation.PNG) 
 
-**Monitoring**
+<a name="7"></a>
+### Monitoring
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/monitoring%20dashboard.PNG)
 

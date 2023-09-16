@@ -61,7 +61,7 @@ In addition to managing these changes to the data, a second set of issues, that 
 
 **Degrees of automation**
 
-
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/degrees%20of%20automation.PNG) 
 
 References
 

@@ -10,7 +10,7 @@
 <a name="1"></a>
 ## Introduction to Machine Learning in Production
 
-
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/deployment%20example.PNG)
 
 References
 

@@ -134,6 +134,12 @@ The **Bayes error**, also known as the Bayes risk or the **irreducible error**, 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/deployment%20constraints.PNG)
 
+Finally, when trying out a learning algorithm for the first time, before running it on all your data, I would urge you to run a few quick sanity checks for your code and your algorithm. For example, I will usually try to overfit a very small training dataset before spending hours or sometimes even overnight or days training the algorithm on a large dataset. **Maybe even try to make sure you can fit one training example, especially, if the output is a complex output.**
+
+The advantage of this is you may be able to train your algorithm on one or a small handful of examples in **just minutes or maybe even seconds and this lets you find bugs much more quickly.**
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/sanity%20check%20the%20code.PNG)
+
 
 References
 

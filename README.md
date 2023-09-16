@@ -63,6 +63,10 @@ In addition to managing these changes to the data, a second set of issues, that 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/degrees%20of%20automation.PNG) 
 
+**Monitoring**
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/monitoring%20dashboard.PNG)
+
 References
 
 https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops

@@ -75,6 +75,10 @@ Examples of metrics to track:
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/deployment%20is%20also%20iterative%20process.PNG)
 
+**Pipeline monitoring**
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/metrics%20to%20monitor.PNG)
+
 
 References
 

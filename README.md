@@ -44,15 +44,19 @@ In addition to managing these changes to the data, a second set of issues, that 
 
 + Shadow deployment
 + Canary deployment
-+ Blue green deployment
++ Blue-green deployment
 
 **Shadow mode deployment:**
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/shadow%20mode%20deployment.PNG)
 
-**Canary deployment**
+**Canary deployment**:
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/canary%20deployment.PNG)
+
+**Blue-green deployment**:
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/blue%20green%20deployment.PNG)
 
 
 **Degrees of automation**

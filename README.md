@@ -38,6 +38,9 @@ In addition to managing these changes to the data, a second set of issues, that 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/SF%20ENg.%20issues.PNG)
 
+**Deployment patterns**
+
+
 
 References
 

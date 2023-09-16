@@ -9,6 +9,7 @@
       4. [Degrees of automation](#6)
       5. [Monitoring](#7)
    2. [Select and train a model](#8)
+      1. [] 
 3. [Machine Learning Data Lifecycle in Production](#2)
 4. [Machine Learning Modeling Pipelines in Production](#3)
 5. [Deploying Machine Learning Models in Production](#4) 
@@ -97,6 +98,7 @@ Examples of metrics to track:
 <a name="8"></a>
 ## Select and train a model
 
+HERE
 
 References
 

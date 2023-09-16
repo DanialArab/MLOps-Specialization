@@ -120,6 +120,13 @@ Establish a baseline
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/establishing%20a%20baseline.PNG)
 
+It turns out the best practices for establishing a baseline are quite different, depending on whether you're working on unstructured or structured data:
+
+Because humans are so good at unstructured data tasks, measuring human-level performance or HLP, is often a good way to establish a baseline if you are working on unstructured data.
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/unstructured%20and%20structured%20data.PNG)
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/ways%20to%20establish%20a%20baseline.PNG)
 
 References
 

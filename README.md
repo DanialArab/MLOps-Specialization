@@ -100,6 +100,10 @@ Examples of metrics to track:
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/Modeling.PNG)
 
+AI System = code + data
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/challenges%20in%20model%20development.PNG)
+
 
 
 References

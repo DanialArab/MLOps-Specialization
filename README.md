@@ -12,6 +12,12 @@
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/deployment%20example.PNG)
 
++ ML Model code is almost 5 to 10 % of the whole project code
++ This is called POC (proof of concept (happening in Jupyter Notebook) to production gap
+
+
+
+
 References
 
 https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops

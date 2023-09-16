@@ -40,6 +40,15 @@ In addition to managing these changes to the data, a second set of issues, that 
 
 **Deployment patterns**
 
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/common%20deployment%20cases.PNG)
+
+
++ Shadow deployment
++ Canary deployment
++ Blue green deployment
+
+**Degrees of automation**
+
 
 
 References

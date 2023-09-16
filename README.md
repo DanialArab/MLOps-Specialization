@@ -17,6 +17,9 @@
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/ML%20infrastructure.PNG)
 
+ML project lifecycle
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/ML%20Project%20lifecycle.PNG)
 
 References
 

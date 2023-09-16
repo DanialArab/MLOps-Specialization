@@ -12,7 +12,7 @@
       1. [Data vs. model-centric AI development](#9)
       2. [Challenges in model development](#10)
       3. [Why low average error isn't good enough](#11)
-      4. [Establish a baseline](#12
+      4. [Establish a baseline](#12)
       5. [Ways to establish a baseline](#13)
 3. [Machine Learning Data Lifecycle in Production](#2)
 4. [Machine Learning Modeling Pipelines in Production](#3)

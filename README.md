@@ -104,7 +104,8 @@ AI System = code + data
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/challenges%20in%20model%20development.PNG)
 
-Why low average error isn't good enough
+<a name="9"></a>
+### Why low average error isn't good enough
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/performance%20on%20disproportionately%20important%20examples.PNG)
 
@@ -139,6 +140,9 @@ Finally, when trying out a learning algorithm for the first time, before running
 The advantage of this is you may be able to train your algorithm on one or a small handful of examples in **just minutes or maybe even seconds and this lets you find bugs much more quickly.**
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/sanity%20check%20the%20code.PNG)
+
+Error analysis and performance auditing
+
 
 
 References

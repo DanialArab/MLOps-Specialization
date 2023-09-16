@@ -132,6 +132,8 @@ The **Bayes error**, also known as the Bayes risk or the **irreducible error**, 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/getting%20started.PNG)
 
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/deployment%20constraints.PNG)
+
 
 References
 

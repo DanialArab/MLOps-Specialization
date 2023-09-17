@@ -177,7 +177,7 @@ Even when your learning algorithm is doing well on accuracy or F1 score or some 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/performance%20auditng.PNG)
 
-
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/auditing%20framework.PNG)
 
 
 References

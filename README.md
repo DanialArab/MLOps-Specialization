@@ -165,6 +165,8 @@ Rather than deciding to work on car noise because the gap to HLP is bigger, one 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/prioritizing%20what%20to%20work%20on%20next.PNG)
 
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/prioritizing%20what%20to%20work.PNG)
+
 
 References
 

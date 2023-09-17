@@ -161,7 +161,9 @@ The advantage of this is you may be able to train your algorithm on one or a sma
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/iterative%20process%20of%20error%20analysis.PNG)
 
+Rather than deciding to work on car noise because the gap to HLP is bigger, one other useful factor to look at is what's the percentage of data with that tag? 
 
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/prioritizing%20what%20to%20work%20on%20next.PNG)
 
 
 References

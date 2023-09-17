@@ -167,6 +167,18 @@ Rather than deciding to work on car noise because the gap to HLP is bigger, one 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/prioritizing%20what%20to%20work.PNG)
 
+Skewed datasets
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/multi%20class%20classification.PNG)
+
+Performance auditing
+
+Even when your learning algorithm is doing well on accuracy or F1 score or some appropriate metric. It's often worth one last performance audit before you push it to production. And this can sometimes save you from significant post deployment problems
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/performance%20auditng.PNG)
+
+
+
 
 References
 

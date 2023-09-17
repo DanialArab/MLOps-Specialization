@@ -192,6 +192,8 @@ Even when your learning algorithm is doing well on accuracy or F1 score or some 
 <a name="18"></a>
 ## Data-centric AI development
 
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/data%20centric%20vs%20model%20centric%20AI.PNG)
+
 
 
 References

@@ -206,6 +206,12 @@ Data augmentation can be a very efficient way to get more data, especially for u
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/data%20augmentation%20guidelines.PNG)
 
+Can adding data hurt?
+
+Usually, for unstructured data performance, the answer is no, with some caveats, but let's dive more deeply into this: 
+
+HERE 
+ 
 References
 
 https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops

@@ -194,6 +194,11 @@ Even when your learning algorithm is doing well on accuracy or F1 score or some 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/data%20centric%20vs%20model%20centric%20AI.PNG)
 
+One of the most important ways to improve the quality of a data set is data augmentation.
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/data%20augmentation.PNG) 
+
+It turns out that for unstructured data problems, pulling up one piece of this rubber sheet is unlikely to cause a different piece of the rubber sheet to dip down really far below. Instead, pulling up one point causes nearby points to be pulled up quite a lot and far away points may be pulled up a little bit, or if you're lucky, maybe more than a little bit. 
 
 
 References

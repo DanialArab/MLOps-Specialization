@@ -159,6 +159,9 @@ The advantage of this is you may be able to train your algorithm on one or a sma
 <a name="14"></a>
 ## Error analysis and performance auditing
 
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/iterative%20process%20of%20error%20analysis.PNG)
+
+
 
 
 References

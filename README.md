@@ -15,9 +15,13 @@
       4. [Establish a baseline](#12)
       5. [Ways to establish a baseline](#13)
    3. [Error analysis and performance auditing](#14)
-3. [Machine Learning Data Lifecycle in Production](#2)
-4. [Machine Learning Modeling Pipelines in Production](#3)
-5. [Deploying Machine Learning Models in Production](#4) 
+      1. [Prioritizing what to work on next](#15)
+      2. [Skewed datasets](#16)
+      3. [Performance auditing](#17)
+   4. [Data-centric AI development](#18)
+2. [Machine Learning Data Lifecycle in Production](#2)
+3. [Machine Learning Modeling Pipelines in Production](#3)
+4. [Deploying Machine Learning Models in Production](#4) 
 
 
 <a name="1"></a>
@@ -161,23 +165,33 @@ The advantage of this is you may be able to train your algorithm on one or a sma
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/iterative%20process%20of%20error%20analysis.PNG)
 
+<a name="15"></a>
+### Prioritizing what to work on next 
+
 Rather than deciding to work on car noise because the gap to HLP is bigger, one other useful factor to look at is what's the percentage of data with that tag? 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/prioritizing%20what%20to%20work%20on%20next.PNG)
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/prioritizing%20what%20to%20work.PNG)
 
-Skewed datasets
+<a name="16"></a>
+### Skewed datasets
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/multi%20class%20classification.PNG)
 
-Performance auditing
+<a name="17"></a>
+### Performance auditing
 
 Even when your learning algorithm is doing well on accuracy or F1 score or some appropriate metric. It's often worth one last performance audit before you push it to production. And this can sometimes save you from significant post deployment problems
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/performance%20auditng.PNG)
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/auditing%20framework.PNG)
+
+
+<a name="18"></a>
+## Data-centric AI development
+
 
 
 References

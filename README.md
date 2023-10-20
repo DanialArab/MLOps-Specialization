@@ -163,6 +163,8 @@ One of the most useful frameworks for thinking about how to deploy a system is t
 <a name="14"></a>
 ### Monitoring
 
+The most common way to monitor a machine learning system is to use a dashboard to track how it is doing over time. Depending on your application, your dashboards may monitor different metrics:
+
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/monitoring%20dashboard.PNG)
 
 Examples of metrics to track:

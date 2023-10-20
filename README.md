@@ -19,7 +19,7 @@ This repository documents my understanding of putting ML models into production.
          2. [Canary deployment](#11)
          3. [Blue-green deployment](#12) 
          4. [Degrees of automation](#13)
-      6. [Monitoring](#10)
+      6. [Monitoring](#14)
    4. [Select and train a model](#8)
       1. [Data vs. model-centric AI development](#9)
       2. [Challenges in model development](#10)
@@ -160,7 +160,7 @@ One of the most useful frameworks for thinking about how to deploy a system is t
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/degrees%20of%20automation.PNG) 
 
-<a name="10"></a>
+<a name="14"></a>
 ### Monitoring
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/monitoring%20dashboard.PNG)

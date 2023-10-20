@@ -32,9 +32,10 @@ This repository documents my understanding of putting ML models into production.
 <a name="1"></a>
 # Course 1: Introduction to Machine Learning in Production
 
-
 <a name="2"></a>
 ## Overview of the ML lifecycle and deployment
+
+As an example of putting an ML model into production, let's consider a cellphone factory. Our ML problem is to perform a visual inspection of the cellphones produced by the factory. We do have an ML model for that which is out in the prediction server. We also have an edge device where the inspection software lives. We capture a photo the cellphone in the edge device then this image is sent to the prediction server through API call, there the ML model makes a prediction on that image and then send beck the prediction to the edge device through another API call. We can put the prediction server in the cloud or also in the edge device (for the factories it is recommended to put the prediction server on the edge device to make sure that if internet is down it does not make the factory down).
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/deployment%20example.PNG)
 

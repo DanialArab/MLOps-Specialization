@@ -13,9 +13,10 @@ This repository documents my understanding of putting ML models into production.
       1. [Key challenges in ML deployment](#5)
          1. [Data drift and concept drift](#6)
          2. [Software Engineering issues](#7)
-      4. [Deployment patterns](#8)
-      5. [Degrees of automation](#9)
-      6. [Monitoring](#10)
+      2. [Common deployment cases](#8)
+      3. [Deployment patterns](#9)
+      4. [Degrees of automation](#9)
+      5. [Monitoring](#10)
    4. [Select and train a model](#8)
       1. [Data vs. model-centric AI development](#9)
       2. [Challenges in model development](#10)
@@ -106,9 +107,19 @@ In addition to managing these changes to the data, a second set of issues, that 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/SF%20ENg.%20issues.PNG)
 
 <a name="8"></a>
-### Deployment patterns
+### Common deployment cases
+
+Common deployment cases:
++ If you're offering a service that you have not offered before, a common design pattern is to start up a small amount of traffic and then gradually ramp it up.
++ If there's something that's already being done by a person, but we would now like to use a learning algorithm to either automate or assist with that task.
++ If you've already been doing this task with a previous implementation of a machine learning system, but you now want to replace it with hopefully an even better one. 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/common%20deployment%20cases.PNG)
+
+Key ideas:  In these cases, two recurring themes you see are that you often want a gradual ramp up with monitoring. In other words, rather than sending tons of traffic to a maybe not fully proven learning algorithm, you may send it only a small amount of traffic and monitor it and then ramp up the percentage or amount of traffic. And the second idea you see a few times is rollback. Meaning that if for some reason the algorithm isn't working, it's nice if you can revert back to the previous system if indeed there was an earlier system.
+
+<a name="9"></a>
+### Deployment patterns
 
 + Shadow deployment
 + Canary deployment

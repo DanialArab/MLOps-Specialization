@@ -7,23 +7,24 @@ This repository documents my understanding of putting ML models into production.
 + Deploying Machine Learning Models in Production 
 
 1. [Course 1: Introduction to Machine Learning in Production](#1)
-   1. [Overview of the ML lifecycle and deployment](#2)
+   1. [Overview of the ML lifecycle](#2)
       1. [ML project lifecycle](#3)
+   2. [Deployment](#4)
       2. [Data drift and concept drift](#4)
       3. [Deployment patterns](#5)
       4. [Degrees of automation](#6)
       5. [Monitoring](#7)
-   2. [Select and train a model](#8)
+   3. [Select and train a model](#8)
       1. [Data vs. model-centric AI development](#9)
       2. [Challenges in model development](#10)
       3. [Why low average error isn't good enough](#11)
       4. [Establish a baseline](#12)
       5. [Ways to establish a baseline](#13)
-   3. [Error analysis and performance auditing](#14)
+   4. [Error analysis and performance auditing](#14)
       1. [Prioritizing what to work on next](#15)
       2. [Skewed datasets](#16)
       3. [Performance auditing](#17)
-   4. [Data-centric AI development](#18)
+   5. [Data-centric AI development](#18)
 2. [Machine Learning Data Lifecycle in Production](#2)
 3. [Machine Learning Modeling Pipelines in Production](#3)
 4. [Deploying Machine Learning Models in Production](#4) 
@@ -73,6 +74,13 @@ As an example, a speech recognition system that is trained mainly on adult voice
 
 + As part of error analysis before taking a system to deployments, I'll often also carry out a final check, maybe a final audit, to make sure that the system's performance is good enough and that it's sufficiently reliable for the application.
 + If the data distribution in the upcoming traffic changes, you may need to update the model. After the initial deployment, maintenance will often mean going back to perform more error analysis and maybe retrain the model, or it might mean taking the data you get back. Now that the system is deployed and is running on live data, and feeding that back into your dataset to then potentially update your data, retrain the model, and so on until you can put an updated model into deployment.
+
+<a name="4"></a>
+## Deployment 
+
+Key challenges in ML deployment are:
++ Statistical or ML issues like concept drift or data drift 
++ Software issues
 
 <a name="4"></a>
 ### Data drift and concept drift

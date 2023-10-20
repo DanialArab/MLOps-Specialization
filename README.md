@@ -1,5 +1,8 @@
 # MLOps Specialization
 
+
+<a href="https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops">Machine Learning Engineering for Production (MLOps) Specialization</a> Instructors: Robert Crowe, Laurence Moroney, Andrew Ng
+
 1. [Introduction to Machine Learning in Production](#1)
    1. [Overview of the ML lifecycle and deployment](#2)
       1. [ML project lifecycle](#3)
@@ -212,6 +215,4 @@ Usually, for unstructured data performance, the answer is no, with some caveats,
 HERE 
 
 
-References
 
-https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops

@@ -19,8 +19,9 @@ This repository documents my understanding of putting ML models into production.
          2. [Canary deployment](#11)
          3. [Blue-green deployment](#12) 
          4. [Degrees of automation](#13)
-      6. [Monitoring](#14)
-   4. [Select and train a model](#8)
+      4. [Monitoring](#14)
+      5. [Pipeline monitoring](#15)
+   3. [Select and train a model](#8)
       1. [Data vs. model-centric AI development](#9)
       2. [Challenges in model development](#10)
       3. [Why low average error isn't good enough](#11)
@@ -191,7 +192,10 @@ When a model needs to be updated, you can either retrain it **manually**, where 
  
 The key takeaways are that it is only by monitoring the system you can spot if there may be a problem that may cause you to go back to perform a deeper error analysis, or that may cause you to go back to get more data with which you can update your model so as to maintain or improve your system's performance.  
 
-**Pipeline monitoring**
+For more complex systems, where you don't have just one model and instead you have a more complex machine learning pipeline, how do you monitor the performance of that?
+
+<a name="15"></a>
+### Pipeline monitoring
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/metrics%20to%20monitor.PNG)
 

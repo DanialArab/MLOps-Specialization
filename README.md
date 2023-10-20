@@ -106,7 +106,7 @@ In addition to managing these changes to the data, a second set of issues, that 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/SF%20ENg.%20issues.PNG)
 
-<a name="5"></a>
+<a name="8"></a>
 ### Deployment patterns
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/common%20deployment%20cases.PNG)
@@ -128,12 +128,12 @@ In addition to managing these changes to the data, a second set of issues, that 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/blue%20green%20deployment.PNG)
 
 
-<a name="6"></a>
+<a name="9"></a>
 ### Degrees of automation
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/degrees%20of%20automation.PNG) 
 
-<a name="7"></a>
+<a name="10"></a>
 ### Monitoring
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/monitoring%20dashboard.PNG)

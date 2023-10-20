@@ -16,6 +16,7 @@ This repository documents my understanding of putting ML models into production.
       2. [Common deployment cases](#8)
       3. [Deployment patterns](#9)
          1. [Shadow mode deployment](#10)
+         2. [Canary deployment](#11)
       5. [Degrees of automation](#9)
       6. [Monitoring](#10)
    4. [Select and train a model](#8)
@@ -135,7 +136,10 @@ When we have people initially doing a task, one common deployment pattern is to 
 
 The purpose of a shadow mode deployment is that it allows you to gather data of how the learning algorithm is performing and how that compares to the human judgment. And by sampling the outputs you can then verify if the learning algorithm's predictions are accurate and therefore use that to decide whether or not to allow the learning algorithm to make some real decisions in the future. So when you already have some system that is making good decisions and that system can be human inspectors or even an older implementation of a learning algorithm, using a shadow mode deployment can be a very effective way to let you verify the performance of a learning algorithm before letting them make any real decisions. 
 
-**Canary deployment**:
+<a name="11"></a>
+#### Canary deployment
+
+When you are ready to let a learning algorithm start making real decisions, a common deployment pattern is to use a canary deployment. 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/canary%20deployment.PNG)
 

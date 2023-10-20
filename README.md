@@ -35,7 +35,7 @@ This repository documents my understanding of putting ML models into production.
 <a name="2"></a>
 ## Overview of the ML lifecycle and deployment
 
-As an example of putting an ML model into production, let's consider a cellphone factory. Our ML problem is to perform a visual inspection of the cellphones produced by the factory and make a decision on whether or not the device is defective. We do have an ML model for that which is put in the **prediction server**. We also have an edge device where the inspection software lives. It captures a photo of the cellphone in the edge device then this image is sent to the prediction server through an API call, there the ML model makes a prediction on that image and then sends back the prediction to the edge device through another API call. And then the inspection software can make the appropriate control decision on whether to let it still move on in the manufacturing line. Or whether to shove it to a side, because it was defective and not acceptable. We can put the prediction server in the cloud or also at the edge device (for the factories it is recommended to put the prediction server on the edge device (**edge deployment**) to make sure that if the internet is down it does not make the factory down).
+As an example of putting an ML model into production, let's consider a cellphone factory. Our ML problem is to perform a visual inspection of the cellphones produced by the factory and make a decision on whether or not the device is defective. We do have an ML model for that which is put in the **prediction server**. We also have an edge device (like a mobile phone) where the inspection software lives. It captures a photo of the cellphone in the edge device then this image is sent to the prediction server through an API call, there the ML model makes a prediction on that image and then sends back the prediction to the edge device through another API call. And then the inspection software can make the appropriate control decision on whether to let it still move on in the manufacturing line. Or whether to shove it to a side, because it was defective and not acceptable. We can put the prediction server in the cloud or also at the edge device (for the factories it is recommended to put the prediction server on the edge device (**edge deployment**) to make sure that if the internet is down it does not make the factory down).
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/deployment%20example.PNG)
 
@@ -51,6 +51,21 @@ As an example of putting an ML model into production, let's consider a cellphone
 
 + As part of error analysis before taking a system to deployments, I'll often also carry out a final check, maybe a final audit, to make sure that the system's performance is good enough and that it's sufficiently reliable for the application.
 + If the data distribution in the upcoming traffic changes, you may need to update the model. After the initial deployment, maintenance will often mean going back to perform more error analysis and maybe retrain the model, or it might mean taking the data you get back. Now that the system is deployed and is running on live data, and feeding that back into your dataset to then potentially update your data, retrain the model, and so on until you can put an updated model into deployment.
+
+Some considerations on different phases of the ML lifecycle:
++ Scoping question:
+   + 
++ Data definition questions:
+   + Is the data labeled **consistently**? Otherwise, the learning algorithm would be confused! 
+   + For the speech recognition problem, how much silence do we want to have before/after each clip?
+   + Again for the speech recognition problem, how to perform volume normalization? 
++ Modeling (Code + data) 
+   + code (algorithm/model)
+   + hyperparameters
+   + data 
+In research work or academics, we tend to hold the data fixed and vary the code and may vary the hyperparameters in order to try to get good performance. In contrast, in the product teams, if your main goal is to just build and deploy a working valuable machine learning system, it is even more effective to hold the code fixed and instead focus on optimizing the data and maybe the hyperparameters,
++ Deployment, monitoring, and maintaining the system
+As an example, a speech recognition system which is trained mainly on adult voices would not have a good performance on the data for the more young individuals. The reason is that the voices of very young individuals just sound different. In this case, we need to go back and find a way to collect more data in order to fix it. So one of the key challenges when it comes to deployment is concept drift or data drift, which is what happens when the data distribution changes.
 
 <a name="4"></a>
 ### Data drift and concept drift

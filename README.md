@@ -116,7 +116,7 @@ Common deployment cases:
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/common%20deployment%20cases.PNG)
 
-Key ideas:  In these cases, two recurring themes you see are that you often want a gradual ramp up with monitoring. In other words, rather than sending tons of traffic to a maybe not fully proven learning algorithm, you may send it only a small amount of traffic and monitor it and then ramp up the percentage or amount of traffic. And the second idea you see a few times is rollback. Meaning that if for some reason the algorithm isn't working, it's nice if you can revert back to the previous system if indeed there was an earlier system.
+Key ideas:  In these cases, two recurring themes you see are that you often want a **gradual ramp-up with monitoring**. In other words, rather than sending tons of traffic to a maybe not fully proven learning algorithm, you may send it only a small amount of traffic and monitor it and then ramp up the percentage or amount of traffic. And the second idea is **rollback**. This means that if for some reason the algorithm isn't working, it's nice if you can revert back to the previous system if indeed there was an earlier system.
 
 <a name="9"></a>
 ### Deployment patterns

@@ -39,7 +39,7 @@ This repository documents my understanding of putting ML models into production.
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/deployment%20example.PNG)
 
 + ML Model code is almost 5 to 10 % of the whole project code
-+ This is called POC (proof of concept (developing in Jupyter Notebook)) to production gap
++ All the work and software required beyond the 5 to 10 % ML code is called POC (proof of concept (developing in Jupyter Notebook)) to production gap
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/ML%20infrastructure.PNG)
 

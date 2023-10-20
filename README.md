@@ -47,14 +47,14 @@ As an example of putting an ML model into production, let's consider a cellphone
 <a name="3"></a>
 ### ML project lifecycle
 
-![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/ML%20Project%20lifecycle.PNG)
-
-+ As part of error analysis before taking a system to deployments, I'll often also carry out a final check, maybe a final audit, to make sure that the system's performance is good enough and that it's sufficiently reliable for the application.
-+ If the data distribution in the upcoming traffic changes, you may need to update the model. After the initial deployment, maintenance will often mean going back to perform more error analysis and maybe retrain the model, or it might mean taking the data you get back. Now that the system is deployed and is running on live data, and feeding that back into your dataset to then potentially update your data, retrain the model, and so on until you can put an updated model into deployment.
-
 Some considerations on different phases of the ML lifecycle:
 + Scoping question:
-   + 
+   + Decide to work on what
+   + Decide on key metrics
+      + accuracy,
+      + latency,
+      + throughput
+   + Estimate resources and timeline
 + Data definition questions:
    + Is the data labeled **consistently**? Otherwise, the learning algorithm would be confused! 
    + For the speech recognition problem, how much silence do we want to have before/after each clip?
@@ -66,6 +66,11 @@ Some considerations on different phases of the ML lifecycle:
 In research work or academics, we tend to hold the data fixed and vary the code and may vary the hyperparameters in order to try to get good performance. In contrast, in the product teams, if your main goal is to just build and deploy a working valuable machine learning system, it is even more effective to hold the code fixed and instead focus on optimizing the data and maybe the hyperparameters,
 + Deployment, monitoring, and maintaining the system
 As an example, a speech recognition system which is trained mainly on adult voices would not have a good performance on the data for the more young individuals. The reason is that the voices of very young individuals just sound different. In this case, we need to go back and find a way to collect more data in order to fix it. So one of the key challenges when it comes to deployment is concept drift or data drift, which is what happens when the data distribution changes.
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/ML%20Project%20lifecycle.PNG)
+
++ As part of error analysis before taking a system to deployments, I'll often also carry out a final check, maybe a final audit, to make sure that the system's performance is good enough and that it's sufficiently reliable for the application.
++ If the data distribution in the upcoming traffic changes, you may need to update the model. After the initial deployment, maintenance will often mean going back to perform more error analysis and maybe retrain the model, or it might mean taking the data you get back. Now that the system is deployed and is running on live data, and feeding that back into your dataset to then potentially update your data, retrain the model, and so on until you can put an updated model into deployment.
 
 <a name="4"></a>
 ### Data drift and concept drift

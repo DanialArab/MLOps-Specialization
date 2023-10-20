@@ -177,7 +177,7 @@ Examples of metrics to track:
 
 It usually takes a few trials to converge to the right set of metrics to monitor. Sometimes you have deployed the machine learning system, and it's not uncommon for you to deploy a machine learning system with an initial set of metrics only to run the system for a few weeks and then to realize that something could go wrong with it that you hadn't thought of before and into pick a new metric to monitor. Or for you to have some metric that you monitor for a few weeks and then decide they're just metrics, hardly ever change, and to get rid of that metric in favor of focusing attention on something else.
 
-After you've chosen a set of metrics to monitor, common practice would be to set thresholds for alarms. You may decide if the server load ever goes above 0.91, which may trigger an alarm or a notification to let you know or let the team know to see if there's a problem and maybe spin up some more servers:
+After you've chosen a set of metrics to monitor, common practice would be to **set thresholds for alarms**. You may decide if the server load ever goes above 0.91, which may trigger an alarm or a notification to let you know or let the team know to see if there's a problem and maybe spin up some more servers:
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/monitoring%20dashboards.PNG) 
 

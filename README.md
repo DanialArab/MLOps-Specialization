@@ -163,7 +163,7 @@ One of the most useful frameworks for thinking about how to deploy a system is t
 <a name="14"></a>
 ### Monitoring
 
-The most common way to monitor a machine learning system is to use a dashboard to track how it is doing over time. Depending on your application, your dashboards may monitor different metrics. For example, you may have one dashboard to monitor the server load, or a different dashboard to monitor the fraction of non-null outputs. Sometimes a speech recognition system output is null when the users didn't say anything. If this changes dramatically over time, it may be an indication that something is wrong, or one common one I've seen for a lot of structured data tasks is monitoring the fraction of missing input values. If that changes, it may mean that something has changed about your data.
+The most common way to monitor a machine learning system is to use a **dashboard to track how it is doing over time**. Depending on your application, your dashboards may monitor different metrics. For example, you may have one dashboard to monitor the server load, or a different dashboard to monitor the fraction of non-null outputs. Sometimes a speech recognition system output is null when the users didn't say anything. If this changes dramatically over time, it may be an indication that something is wrong, or one common one I've seen for a lot of structured data tasks is monitoring the fraction of missing input values. If that changes, it may mean that something has changed about your data.
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/monitoring%20dashboard.PNG)
 

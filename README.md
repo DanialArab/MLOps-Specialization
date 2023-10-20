@@ -63,6 +63,7 @@ Some considerations on different phases of the ML lifecycle:
    + code (algorithm/model)
    + hyperparameters
    + data 
+
 In research work or academics, we tend to hold the data fixed and vary the code and may vary the hyperparameters in order to try to get good performance. In contrast, in the product teams, if your main goal is to just build and deploy a working valuable machine learning system, it is even more effective to hold the code fixed and instead focus on optimizing the data and maybe the hyperparameters,
 + Deployment, monitoring, and maintaining the system
 As an example, a speech recognition system which is trained mainly on adult voices would not have a good performance on the data for the more young individuals. The reason is that the voices of very young individuals just sound different. In this case, we need to go back and find a way to collect more data in order to fix it. So one of the key challenges when it comes to deployment is concept drift or data drift, which is what happens when the data distribution changes.

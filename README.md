@@ -21,7 +21,7 @@ This repository documents my understanding of putting ML models into production.
          4. [Degrees of automation](#13)
       4. [Monitoring](#14)
       5. [Pipeline monitoring](#15)
-   3. [Select and train a model](#8)
+   3. [Select and train a model](#16)
       1. [Data vs. model-centric AI development](#9)
       2. [Challenges in model development](#10)
       3. [Why low average error isn't good enough](#11)

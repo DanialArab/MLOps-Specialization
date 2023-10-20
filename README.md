@@ -143,6 +143,8 @@ When you are ready to let a learning algorithm start making real decisions, a co
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/canary%20deployment.PNG)
 
+By running the ML algorithm on only a small percentage of the traffic, hopefully, if the algorithm makes any mistakes it **will affect only a small fraction of the traffic**. And this gives you more of an opportunity to monitor the system and ramp up the percentage of traffic it gets only gradually and only when you have greater confidence in this performance.
+
 **Blue-green deployment**:
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/blue%20green%20deployment.PNG)

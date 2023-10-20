@@ -175,6 +175,8 @@ Examples of metrics to track:
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/deployment%20is%20also%20iterative%20process.PNG)
 
+It usually takes a few trials to converge to the right set of metrics to monitor. Sometimes you have deployed the machine learning system, and it's not uncommon for you to deploy a machine learning system with an initial set of metrics only to run the system for a few weeks and then to realize that something could go wrong with it that you hadn't thought of before and into pick a new metric to monitor. Or for you to have some metric that you monitor for a few weeks and then decide they're just metrics, hardly ever change, and to get rid of that metric in favor of focusing attention on something else.
+
 **Pipeline monitoring**
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/metrics%20to%20monitor.PNG)

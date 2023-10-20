@@ -48,7 +48,7 @@ As an example of putting an ML model into production, let's consider a cellphone
 ### ML project lifecycle
 
 Some considerations on different phases of the ML lifecycle:
-+ Scoping question:
++ Scoping questions:
    + Decide to work on what
    + Decide on key metrics
       + accuracy,
@@ -57,7 +57,7 @@ Some considerations on different phases of the ML lifecycle:
    + Estimate resources and timeline
 + Data definition questions:
    + Is the data labeled **consistently**? Otherwise, the learning algorithm would be confused! 
-   + For the speech recognition problem, how much silence do we want to have before/after each clip?
+   + As an example let's say for the speech recognition problem, how much silence do we want to have before/after each clip?
    + Again for the speech recognition problem, how to perform volume normalization? 
 + Modeling (Code + data) 
    + code (algorithm/model)

@@ -6,7 +6,7 @@ This repository documents my understanding of putting ML models into production.
 + Machine Learning Modeling Pipelines in Production
 + Deploying Machine Learning Models in Production 
 
-1. [Introduction to Machine Learning in Production](#1)
+1. [Course 1: Introduction to Machine Learning in Production](#1)
    1. [Overview of the ML lifecycle and deployment](#2)
       1. [ML project lifecycle](#3)
       2. [Data drift and concept drift](#4)
@@ -30,7 +30,7 @@ This repository documents my understanding of putting ML models into production.
 
 
 <a name="1"></a>
-# Introduction to Machine Learning in Production
+# Course 1: Introduction to Machine Learning in Production
 
 <a name="2"></a>
 ## Overview of the ML lifecycle and deployment

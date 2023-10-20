@@ -183,6 +183,14 @@ After you've chosen a set of metrics to monitor, common practice would be to **s
 
 If something goes wrong with your learning algorithm, if it is a software issue such as server load is too high, then that may require changing the software implementation, or if it is a performance problem associated with the accuracy of the learning algorithm, then you may need to update your model. Or if it is an issue associated with the accuracy of the learning algorithm, then you may need to go back to fix that that's why many machine learning models will need a little bit of maintenance or retraining over time. Just like almost all software needs some level of maintenance as well.
 
+When a model needs to be updated, you can either retrain it **manually**, where in Engineer will retrain the model perform error analysis on the new model and make sure it looks okay before pushing that to deployment. Or you could also put in place a system where there is **automatic retraining**. Today, **manual retraining is far more common than automatic training for many applications**, developers are reluctant to learning algorithm be fully automatic in terms of deciding to retrain and pushing new model to production, but there are some applications, especially in consumer software Internet, where automatically training does happen.
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/model%20maintenance.PNG)
+
+ **key takeaways**:
+ 
+The key takeaways are that it is only by monitoring the system you can spot if there may be a problem that may cause you to go back to perform a deeper error analysis, or that may cause you to go back to get more data with which you can update your model so as to maintain or improve your system's performance.  
+
 **Pipeline monitoring**
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/metrics%20to%20monitor.PNG)

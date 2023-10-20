@@ -130,8 +130,10 @@ Key ideas:  In these cases, two recurring themes you see are that you often want
 #### Shadow mode deployment
 
 When we have people initially doing a task, one common deployment pattern is to use shadow mode deployment. That means that you will start by having a machine-learning algorithm shadow the human inspector and run in parallel with the human inspector. During this initial phase, the learning algorithm output is not used for any decision in the factory. So whatever the learning algorithm says, we're going to go to the human judgment for now.
- 
+
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/shadow%20mode%20deployment.PNG)
+
+The purpose of a shadow mode deployment is that it allows you to gather data of how the learning algorithm is performing and how that compares to the human judgment. And by sampling the outputs you can then verify if the learning algorithm's predictions are accurate and therefore use that to decide whether or not to allow the learning algorithm to make some real decisions in the future. So when you already have some system that is making good decisions and that system can be human inspectors or even an older implementation of a learning algorithm, using a shadow mode deployment can be a very effective way to let you verify the performance of a learning algorithm before letting them make any real decisions. 
 
 **Canary deployment**:
 

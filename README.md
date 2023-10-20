@@ -10,21 +10,23 @@ This repository documents my understanding of putting ML models into production.
    1. [Overview of the ML lifecycle](#2)
       1. [ML project lifecycle](#3)
    2. [Deployment](#4)
-      2. [Data drift and concept drift](#4)
-      3. [Deployment patterns](#5)
-      4. [Degrees of automation](#6)
-      5. [Monitoring](#7)
-   3. [Select and train a model](#8)
+      1. [Key challenges in ML deployment](#5)
+         1. [Data drift and concept drift](#6)
+         2. [Software Engineering issues](#7)
+      4. [Deployment patterns](#5)
+      5. [Degrees of automation](#6)
+      6. [Monitoring](#7)
+   4. [Select and train a model](#8)
       1. [Data vs. model-centric AI development](#9)
       2. [Challenges in model development](#10)
       3. [Why low average error isn't good enough](#11)
       4. [Establish a baseline](#12)
       5. [Ways to establish a baseline](#13)
-   4. [Error analysis and performance auditing](#14)
+   5. [Error analysis and performance auditing](#14)
       1. [Prioritizing what to work on next](#15)
       2. [Skewed datasets](#16)
       3. [Performance auditing](#17)
-   5. [Data-centric AI development](#18)
+   6. [Data-centric AI development](#18)
 2. [Machine Learning Data Lifecycle in Production](#2)
 3. [Machine Learning Modeling Pipelines in Production](#3)
 4. [Deploying Machine Learning Models in Production](#4) 
@@ -78,12 +80,15 @@ As an example, a speech recognition system that is trained mainly on adult voice
 <a name="4"></a>
 ## Deployment 
 
+<a name="5"></a>
+### Key challenges in ML deployment
+
 Key challenges in ML deployment are:
 + Statistical or ML issues like concept drift or data drift 
 + Software issues
 
-<a name="4"></a>
-### Data drift and concept drift
+<a name="6"></a>
+#### Data drift and concept drift
 
 Data drift, also known as feature drift or instance drift, occurs when the statistical properties of the input data used to train a machine learning model change over time. Concept drift, on the other hand, refers to the situation where the relationships between input features and the target variable (the concept or concept of interest) change over time. 
 
@@ -94,7 +99,8 @@ Sometimes the terminology of how to describe these data changes is not used comp
 
 When data changes, sometimes it is a gradual change, such as the English language which does change, but changes very slowly with new vocabulary introduced at a relatively slow rate. Sometimes data changes very suddenly where there's a sudden shock to a system. For example, when COVID-19 the pandemic hit, a lot of **credit card fraud** started to not work because the **purchase patterns of individuals suddenly changed**. Many people that did relatively little online shopping suddenly started to use much more online shopping. So the way that people were using credit cards changed very suddenly, and this actually tripped up a lot of anti-fraud systems. This very sudden shift to the data distribution meant that many machine learning teams were scrambling a little bit at the start of COVID to collect new data and retrain systems in order to make them adapt to this very new data distribution. 
 
-**Software Engineering issues**
+<a name="7"></a>
+#### Software Engineering issues
 
 In addition to managing these changes to the data, a second set of issues, that you will have to manage to deploy a system successfully, are software engineering issues:
 

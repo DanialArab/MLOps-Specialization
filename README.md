@@ -149,6 +149,8 @@ By running the ML algorithm on only a small percentage of the traffic, hopefully
 <a name="12"></a>
 #### Blue-green deployment
 
+In a blue-green deployment, what you do is have the router send images to the old or the blue version and have that make decisions. And then when you want to switch over to the new version, what you would do is have the router stop sending images to the old one and suddenly switch over to the new version. So the way the blue-green deployment is implemented is you would have an old prediction service that may be running on some sort of service. You will then spin up a new prediction service, the green version, and you would have the router suddenly switch the traffic over from the old one to the new one. The advantage of a blue-green deployment is that there's an **easy way to enable rollback**. If something goes wrong, you can just very quickly have the router go back reconfigure their router to send traffic back to the old or the blue version, assuming that you kept your blue version of the prediction service running. In a typical implementation of a blue-green deployment, people think of switching over the traffic 100 % all at the same time. But of course, you can also use a more gradual version where you slowly send traffic over. 
+
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/blue%20green%20deployment.PNG)
 
 

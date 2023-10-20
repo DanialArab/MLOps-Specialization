@@ -15,8 +15,9 @@ This repository documents my understanding of putting ML models into production.
          2. [Software Engineering issues](#7)
       2. [Common deployment cases](#8)
       3. [Deployment patterns](#9)
-      4. [Degrees of automation](#9)
-      5. [Monitoring](#10)
+         1. [Shadow mode deployment](#10)
+      5. [Degrees of automation](#9)
+      6. [Monitoring](#10)
    4. [Select and train a model](#8)
       1. [Data vs. model-centric AI development](#9)
       2. [Challenges in model development](#10)
@@ -125,8 +126,11 @@ Key ideas:  In these cases, two recurring themes you see are that you often want
 + Canary deployment
 + Blue-green deployment
 
-**Shadow mode deployment:**
+<a name="10"></a>
+#### Shadow mode deployment
 
+When we have people initially doing a task, one common deployment pattern is to use shadow mode deployment. That means that you will start by having a machine-learning algorithm shadow the human inspector and run in parallel with the human inspector. During this initial phase, the learning algorithm output is not used for any decision in the factory. So whatever the learning algorithm says, we're going to go to the human judgment for now.
+ 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/shadow%20mode%20deployment.PNG)
 
 **Canary deployment**:

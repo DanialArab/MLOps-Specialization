@@ -18,7 +18,7 @@ This repository documents my understanding of putting ML models into production.
          1. [Shadow mode deployment](#10)
          2. [Canary deployment](#11)
          3. [Blue-green deployment](#12) 
-      5. [Degrees of automation](#9)
+         4. [Degrees of automation](#13)
       6. [Monitoring](#10)
    4. [Select and train a model](#8)
       1. [Data vs. model-centric AI development](#9)
@@ -153,9 +153,10 @@ In a blue-green deployment, what you do is have the router send images to the ol
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/blue%20green%20deployment.PNG)
 
-
-<a name="9"></a>
+<a name="13"></a>
 ### Degrees of automation
+
+One of the most useful frameworks for thinking about how to deploy a system is to think about deployment not as a 0, 1 like either deploy or not deploy, but instead to design a system thinking about what is the appropriate degree of automation:
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/degrees%20of%20automation.PNG) 
 

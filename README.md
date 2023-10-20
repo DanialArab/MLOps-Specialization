@@ -17,6 +17,7 @@ This repository documents my understanding of putting ML models into production.
       3. [Deployment patterns](#9)
          1. [Shadow mode deployment](#10)
          2. [Canary deployment](#11)
+         3. [Blue-green deployment](#12) 
       5. [Degrees of automation](#9)
       6. [Monitoring](#10)
    4. [Select and train a model](#8)
@@ -145,7 +146,8 @@ When you are ready to let a learning algorithm start making real decisions, a co
 
 By running the ML algorithm on only a small percentage of the traffic, hopefully, if the algorithm makes any mistakes it **will affect only a small fraction of the traffic**. And this gives you more of an opportunity to monitor the system and ramp up the percentage of traffic it gets only gradually and only when you have greater confidence in this performance.
 
-**Blue-green deployment**:
+<a name="12"></a>
+#### Blue-green deployment
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/blue%20green%20deployment.PNG)
 

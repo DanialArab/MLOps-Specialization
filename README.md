@@ -1,6 +1,6 @@
 # MLOps Specialization
 
-This repository documents my understandings of putting ML model into production and my course notes and all the scripts for the course <a href="https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops">Machine Learning Engineering for Production (MLOps) Specialization</a> by Robert Crowe, Laurence Moroney, Andrew Ng
+This repository documents my understanding of putting ML model into production and my course notes and all the scripts for the course <a href="https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops">Machine Learning Engineering for Production (MLOps) Specialization</a> by Robert Crowe, Laurence Moroney, Andrew Ng
 
 1. [Introduction to Machine Learning in Production](#1)
    1. [Overview of the ML lifecycle and deployment](#2)

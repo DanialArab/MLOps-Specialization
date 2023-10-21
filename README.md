@@ -22,7 +22,7 @@ This repository documents my understanding of putting ML models into production.
       4. [Monitoring](#14)
       5. [Pipeline monitoring](#15)
    3. [Select and train a model](#16)
-      1. [Data vs. model-centric AI development](#9)
+      1. [Data- vs. model-centric AI development](#17)
       2. [Challenges in model development](#10)
       3. [Why low average error isn't good enough](#11)
       4. [Establish a baseline](#12)
@@ -209,11 +209,11 @@ These metrics should be monitored for perhaps each of the components in the pipe
 
 Speaking in very broad generalities, I find that on average, **user data generally changes relatively slowly**. If you run a consumer-facing business with a very large number of users, then it is quite rare for millions of users to all suddenly change their behavior all at the same time. And so user data, if a large number of users will usually change relatively slowly. There are a few exceptions, of course, COVID-19 being one of them where a shock to society actually cause a lot of people's behavior that all change at the same time. So there are exceptions, but on average, if you have a very large group of users, there are only a few forces that can simultaneously change the behavior of a lot of people all at the same time. In contrast, if you work on a **B2B or business-to-business application**, I find an **enterprise data or business data can shift quite quickly**. Because the factory making cellphones may suddenly decide to use a new coating for the cell phones and suddenly the entire dataset changes because the cell phones suddenly all look different.
  
-<a name="8"></a> 
+<a name="16"></a> 
 ## Select and train a model
 
-<a name="9"></a>
-### Data vs. model-centric AI development 
+<a name="17"></a>
+### Data- vs. model-centric AI development 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/Modeling.PNG)
 

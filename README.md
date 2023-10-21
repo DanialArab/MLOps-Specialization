@@ -224,6 +224,10 @@ AI System = code + data
 <a name="18"></a>
 ### Challenges in model development 
 
+We usually start off with some model and hyperparameters and data, training model, and then take the model to carry error analysis, and use that to help you decide how to improve the model or the hyperparameters or the data. Because machine learning is such an empirical process, being able to **go through this loop many times very quickly is key to improving performance**. But one of the things that will help you improve performance is, each time through the loop, being able to make **good decisions** on how to modify the data or how to modify the model or how to modify the hyperparameters. After you've done this enough times and achieve a good model, one last step that's often useful is to carry out a **richer error analysis (audit performance) and have your system go through a final audit to make sure that it is working before you push it to a production deployment. 
+
+![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/model%20dev%20is%20an%20iterative%20process.PNG)
+
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/challenges%20in%20model%20development.PNG)
 
 <a name="11"></a>

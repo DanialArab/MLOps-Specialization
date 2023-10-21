@@ -215,6 +215,8 @@ Speaking in very broad generalities, I find that on average, **user data general
 <a name="17"></a>
 ### Data- vs. model-centric AI development 
 
+For **practical projects**, it can be more useful to take a more **data-centric approach**, where you focus not just on improving the neural network architecture for example, but on making sure you are feeding your algorithm **high-quality data**. That ultimately lets you be more efficient in getting your system to perform well. But the way I engage in data-centric AI development is not to just go and try to collect more data, which can be very time-consuming, but to instead use tools to help me improve the data in the most efficient possible way.
+
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/Modeling.PNG)
 
 AI System = code + data

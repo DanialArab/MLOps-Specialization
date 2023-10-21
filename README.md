@@ -24,7 +24,7 @@ This repository documents my understanding of putting ML models into production.
    3. [Select and train a model](#16)
       1. [Data- vs. model-centric AI development](#17)
       2. [Challenges in model development](#18)
-      3. [Why low average error isn't good enough](#11)
+      3. [Why low average error isn't good enough](#19)
       4. [Establish a baseline](#12)
       5. [Ways to establish a baseline](#13)
    5. [Error analysis and performance auditing](#14)
@@ -234,7 +234,7 @@ When building a model, there are three key milestones that most projects should 
 
 Unfortunately for many problems, having a high test set accuracy is not sufficient for achieving the goals of the project. And this has led to a lot of frustration and disagreements between the machine learning team, which is very good at getting a high test set accuracy and the business teams which care more about the business metrics or some other goals of the project. 
 
-<a name="11"></a>
+<a name="19"></a>
 ### Why low average error isn't good enough
 
 There are a few common patterns seen across many projects where you need something beyond low average test set error, and being able to spot these issues will help you be more efficient in addressing them. 

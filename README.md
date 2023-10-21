@@ -228,7 +228,7 @@ We usually start off with some model and hyperparameters and data, training mode
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/model%20dev%20is%20an%20iterative%20process.PNG)
 
-When building a model, I think there are three key milestones that most projects should aspire to accomplish:
+When building a model, there are three key milestones that most projects should aspire to accomplish:
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/challenges%20in%20model%20development.PNG)
 

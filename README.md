@@ -23,7 +23,7 @@ This repository documents my understanding of putting ML models into production.
       5. [Pipeline monitoring](#15)
    3. [Select and train a model](#16)
       1. [Data- vs. model-centric AI development](#17)
-      2. [Challenges in model development](#10)
+      2. [Challenges in model development](#18)
       3. [Why low average error isn't good enough](#11)
       4. [Establish a baseline](#12)
       5. [Ways to establish a baseline](#13)
@@ -221,7 +221,7 @@ For **practical projects**, it can be more useful to take a more **data-centric 
 
 AI System = code + data
 
-<a name="10"></a>
+<a name="18"></a>
 ### Challenges in model development 
 
 ![](https://github.com/DanialArab/images/blob/main/MLOps-Specialization/challenges%20in%20model%20development.PNG)
